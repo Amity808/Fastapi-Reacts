@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My first Love post",
+      "datetime": "July 01, 2022, 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sint similique architecto eum ratione reprehenderit illo a? Architecto, quos incidunt eos veniam amet, ipsum pariatur, illo veritatis odit ut repudiandae?"
+    },
+    {
+      "id": 2,
+      "title": "My Love post faith",
+      "datetime": "January 02, 02023 11:33:23 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat voluptatum minus veritatis tenetur sed fuga in maiores. Aliquid fuga alias voluptatibus temporibus fugiat reprehenderit, tempora eveniet soluta esse exercitationem."
+    },
+    {
+      "id": 3,
+      "title": "My second Love post ",
+      "datetime": "January 02, 02023 11:29:21 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil eveniet dolorem veritatis unde maiores iure quod soluta, esse ullam culpa fugiat tenetur necessitatibus velit suscipit, dolor ducimus at explicabo."
+    },
+    {
+      "id": 4,
+      "title": "shadow akin ",
+      "datetime": "January 03, 02023 9:42:04 AM",
+      "body": "say no more boy asa const handleEdit = async (id) => {\n    const datetime = format(new Date(), \"MMMM dd, yyyyy pp\");\n    const updatedPost = { id, title: editTitle, datetime, body: editBody };\n    try {\n      const response = await api.put(`/posts/${id}`, updatedPost);\n      setPosts(\n        posts.map((post) => (post.id === id ? { ...response.data } : post))\n      );\n      setEditTitle(\"\");\n      setEditBody(\"\");\n      history.push(\"/\");\n    } catch (err) {\n      console.log(`Error: ${err.message}`);\n    }\n  };"
+    },
+    {
+      "id": 5,
+      "title": "Akin table",
+      "datetime": "March 29, 02023 1:31:03 PM",
+      "body": " yjd kjndf hdbydsajhfkladf,"
+    }
+  ]
+}

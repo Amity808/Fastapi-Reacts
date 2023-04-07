@@ -1,0 +1,5 @@
+[
+  "test_blog.py::test_getAllBlog",
+  "test_blog.py::test_new_blog",
+  "test_sql_app.py::test_new_blog"
+]

@@ -1,0 +1,11 @@
+fastapi
+sqlalchemy
+alembic
+pydantic
+black
+python-dotenv
+jinja2
+starlette
+python-jose[cryptography]
+pytest
+httpx
